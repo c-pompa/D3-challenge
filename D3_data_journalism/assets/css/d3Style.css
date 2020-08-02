@@ -1,3 +1,15 @@
+.stateAbbr {
+    /* stroke: yellow; */
+    fill: yellow;
+}
+
+circle>text {
+    stroke: black;
+    color: black;
+    font-size: .6em;
+    font-family: "Helvetica Neue"
+}
+
 .aText {
     font-family: sans-serif;
     font-size: 16px;
@@ -35,14 +47,14 @@
 /* font size dependent on radius, see app.js */
 
 .stateText {
-    font-family: sans-serif;
+    /* font-family: sans-serif;
     fill: #fff;
-    text-anchor: middle;
+    text-anchor: middle; */
 }
 
 .stateCircle {
-    fill: #89bdd3;
-    stroke: #e3e3e3;
+    /* fill: #89bdd3;
+    stroke: #e3e3e3; */
 }
 
 .chart::before {
@@ -97,15 +109,15 @@
 
 @media screen and (max-width: 530px) {
     .stateText {
-        display: none;
+        /* display: none; */
     }
     .aText {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 }
 
 @media screen and (max-width: 400px) {
     .aText {
-        font-size: 13px;
+        /* font-size: 13px; */
     }
 }
